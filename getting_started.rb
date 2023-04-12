@@ -142,3 +142,28 @@ puts friends.include? "ram"
 puts friends.reverse()
 # shorting the array
 puts friends.sort()
+
+############################## Hashes #######################
+states = {
+    "India" => "PA",
+    "Pakistan" => "PK",
+    "Afganishtan" => "AF",
+    "China" => "CH",
+}
+# printing the hashes
+puts states
+
+# printing the keys value
+puts states["India"]
+######################### Methods or functions #######################
+def sayhi
+    puts "Hello Adarsh"
+end
+puts "Top"
+sayhi
+puts "Bottom"
+
+def sayhi_two(name)
+    puts ("hello " + name)
+end
+sayhi_two("fuck")
