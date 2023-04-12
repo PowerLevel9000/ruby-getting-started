@@ -97,4 +97,10 @@ puts Math.sqrt(int)
 print "float + integer "
 puts int + float
 print "significent number "
-puts (int + float).round(0)
+puts (int + float).round(0);
+######################## input methods ########################
+puts "Enter Your Name: ";
+name = gets.chomp();
+puts "Enter Your age: ";
+age = gets.chomp();
+puts ("hello " + name + " you are " + age);
