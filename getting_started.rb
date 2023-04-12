@@ -99,10 +99,46 @@ puts int + float
 print "significent number "
 puts (int + float).round(0)
 ############### building basic calculator ###############
-
 puts "Enter a number: "
-num1 = gets.chomp();
-
+num1 = gets.chomp().to_f;
 puts "Enter a number: "
-num2 = gets.chomp();
-puts (num1.to_f + num2.to_f)
+num2 = gets.chomp().to_f;
+puts (num1 + num2)
+
+############################## Mad libs Game #######################
+puts "Enter the color : "
+color = gets.chomp()
+puts "Enter the pural noun : "
+pural_noun = gets.chomp()
+
+puts "Enter the celebrity : "
+celebrity = gets.chomp()
+
+puts ("roses are " + color)
+puts (pural_noun + " are blur")
+puts ("i love " + celebrity)
+
+################################# Array #############################
+friends = Array["ram","mohan","shohan","ram","mohan","shohan","ram","mohan","shohan"]
+puts friends
+puts friends[0]
+# to get the reange
+puts friends[0,5]
+# manupulation on the basis of indexes
+friends[0] = "mahabharata"
+puts friends[0]
+# creationg null array
+friends_snake = Array.new
+puts friends_snake[0]
+friends_snake[0] = "Tao"
+friends_snake[1] = "Sha"
+friends_snake[2] = "Andrea"
+# array length
+puts friends_snake.length()
+# checking the elements in the array
+puts friends.include? "Ram"
+puts friends.include? "ram"
+# reversing the array
+puts friends.reverse()
+# shorting the array
+puts friends.sort()
