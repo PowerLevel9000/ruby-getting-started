@@ -163,7 +163,42 @@ puts "Top"
 sayhi
 puts "Bottom"
 
-def sayhi_two(name)
-    puts ("hello " + name)
+def sayhi_two(name="no name", age="9")
+    puts ("hello " + name + "age " + age)
 end
 sayhi_two("fuck")
+
+######################### Return of the ruby methods #######################
+def cube(num)
+    45428
+    return num*num*num
+end
+puts cube(2)
+def cube(num)
+    return num*num*num, 
+    45428
+end
+puts cube(2)[1]
+
+############################# Conditional Statements  #########################
+def is_male_tall(is_male, is_tall)
+    statement_male = "you are "
+    statement_tall = " and "
+    if is_male and is_tall
+        statement_male += "a male"
+        statement_tall += "you are tall"
+    elsif is_male and not(is_tall)
+        statement_male += "a male"
+        statement_tall += "you are not tall"
+    elsif not(is_male) and is_tall
+        statement_male += "not a male"
+        statement_tall += "you are tall"
+    else
+        statement_male += "not a male"
+        statement_tall += "not tall as well"
+    end
+    return statement_male + statement_tall
+end
+puts is_male_tall(true, false)
+puts is_male_tall(false, true)
+puts is_male_tall(false, false)
