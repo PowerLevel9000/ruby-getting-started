@@ -6,16 +6,31 @@ num2 = gets.chomp().to_f
 puts "Enetr your operator number : "
 operator = gets.chomp()
 
-if operator==="+"
+# if operator==="+"
+#     puts num1 + num2
+# elsif  operator === "-"
+#     puts num1 - num2
+# elsif  operator === "*"
+#     puts num1 * num2
+# elsif  operator === "/"
+#     puts num1 / num2
+# elsif  operator === "%"
+#     puts num1 % num2
+# else 
+#     puts "invalid oprator"
+# end
+
+case operator
+when "+"
     puts num1 + num2
-elsif  operator === "-"
+when "-"
     puts num1 - num2
-elsif  operator === "*"
-    puts num1 * num2
-elsif  operator === "/"
+when "/"
     puts num1 / num2
-elsif  operator === "%"
+when "*"
+    puts num1 * num2
+when "%"
     puts num1 % num2
-else 
-    puts "invalid oprator"
+else
+    puts "Invalid operator"
 end
