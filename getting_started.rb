@@ -39,23 +39,23 @@ flaws = nil
 puts age, height, depth, ismale, istall,
 ############### string methods ###############
 # p "adarsh \n pathak"
-puts 'adarsh " pathak'
-puts "adarsh \t pathak"
-puts "adarsh \b pathak"
-puts 'adarsh  pathak'
+# puts 'adarsh pathak'
+# puts "adarsh \t pathak"
+# puts "adarsh \b pathak"
+# puts 'adarsh  pathak'
 
 # upcase() & downcase to make string in upercase and downcase
-puts name.upcase
-puts name_variable.downcase
+# puts name.upcase
+# puts name_variable.downcase
 
 # strip() trim the whitespaces of the string
-puts name_variable1.strip
+# puts name_variable1.strip
 
 # length
-puts name.length
+# puts name.length
 # include to check wether passed string is avalibel in the passed parmeter
-puts name_variable1.include? ' '
-puts name_variable.include? 'SHona'
+# puts name_variable1.include? ' '
+# puts name_variable.include? 'SHona'
 
 # accesing charecters on the basis of index
 puts name_variable[0]
