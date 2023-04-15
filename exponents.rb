@@ -21,3 +21,11 @@ File.open("./README.MD", "r") do |file|
     # puts file.readchar()
 
 end
+
+# wirting files in ruby 
+File.open("./README.MD", "a") do |file|
+    file.write("\n# this line in readme written by the ruby program file name `exponents.rb` line no `27-28`")
+end
+File.open("./index.html", "w") do |file|
+    file.write("<h1>this file and this line in readme written by the ruby program file name `exponents.rb` line no `32-34`</h1>")
+end
