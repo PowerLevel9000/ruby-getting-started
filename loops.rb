@@ -1,28 +1,26 @@
 ####################################### loops ############################################
 index = 1
 while index < 50
-    puts index
-    index +=1
+  puts index
+  index += 1
 end
 
 
-friends = ["naman", "bob", "rony", "andrea", "larrisa"]
+friends = %w[naman bob rony andrea larrisa]
 
-for friend in friends
-    puts friend
+friends.each do |friend|
+  puts friend
 end
 
-friends.each do |friend| 
-    puts friend
-end
+# friends.each do |friend|
+#   puts friend
+# end
 
-for index in 0..5
-    puts index
-end
+# (0..5).each do |index|
+#   puts index
+# end
 
-6.times do |entries|
-    if !friends[entries]
-        puts "unexpected"
-    end
-    puts friends[entries]
-end
+# 6.times do |entries|
+#   puts 'unexpected' unless friends[entries]
+#   puts friends[entries]
+# end
