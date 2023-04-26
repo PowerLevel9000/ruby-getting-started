@@ -11,4 +11,4 @@ class Cars
   end
 end
 
-puts json_reader("cars")[0]["modal"]
+puts json_reader('cars')[0]['modal']

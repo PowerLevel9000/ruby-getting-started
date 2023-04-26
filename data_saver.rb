@@ -11,4 +11,3 @@ def json_reader(file)
     return data
   end
 end
-
