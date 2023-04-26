@@ -9,7 +9,7 @@ def guess_game(actual_value)
 
   while actual_value <= high
     mid = (low + high) / 2
-    if mid === actual_value
+    if mid == actual_value
       return "congrats we gind your number #{actual_value} in #{steps_to_reach} steps"
     elsif mid < actual_value
       puts 'going higher ...'

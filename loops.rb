@@ -5,7 +5,6 @@ while index < 50
   index += 1
 end
 
-
 friends = %w[naman bob rony andrea larrisa]
 
 friends.each do |friend|

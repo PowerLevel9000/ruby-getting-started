@@ -25,6 +25,6 @@ File.open('./README.MD', 'a') do |file|
   file.write("\n# this line in readme written by the ruby program file name `exponents.rb` line no `27-28`")
 end
 File.write('./index.html',
-           `<h1>this file and this 
-           line in readme written by the ruby 
+           `<h1>this file and this
+           line in readme written by the ruby
            program file name exponents.rb line no 32-34</h1>`)
