@@ -8,7 +8,8 @@ end
 def json_reader(file)
   File.open("#{file}.json", 'r') do |f|
     data = JSON.parse(f.read)
+    return data
   end
 end
 
-puts json_reader("copy")
+puts json_reader('copy')
