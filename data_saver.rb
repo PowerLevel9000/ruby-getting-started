@@ -12,4 +12,3 @@ def json_reader(file)
   end
 end
 
-puts json_reader('copy')
