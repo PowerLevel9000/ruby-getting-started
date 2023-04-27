@@ -11,3 +11,14 @@ def json_reader(file)
     return data
   end
 end
+
+car = []
+
+File.write("car-dummy.json", JSON.pretty_generate(car))
+
+File.open("car-dummy.json", 'r') do |f|
+  data = JSON.parse(f.read)
+  puts data
+end
+
+

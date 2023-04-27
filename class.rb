@@ -10,5 +10,9 @@ class Cars
     add_car_to_json
   end
 end
+car = Cars.new("bugati1", "chiron", "burak-adarsh")
+car = Cars.new("bugati2", "chiron", "burak-adarsh")
+car = Cars.new("bugati3", "chiron", "burak-adarsh")
+car = Cars.new("bugati4", "chiron", "burak-adarsh")
 
-puts json_reader('cars')[0]['modal']
+puts json_reader('cars')[1]["owner"]

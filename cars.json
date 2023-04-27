@@ -1,22 +1,22 @@
 [
   {
-    "modal": "maCleren",
-    "name": "MacLeran GT",
-    "owner": "Adarsh"
+    "modal": "bugati1",
+    "name": "chiron",
+    "owner": "burak-adarsh"
   },
   {
-    "modal": "bugati",
-    "name": "dvo",
-    "owner": "Adarsh"
+    "modal": "bugati2",
+    "name": "chiron",
+    "owner": "burak-adarsh"
   },
   {
-    "modal": "Kenshonke",
-    "name": "jesko",
-    "owner": "Adarsh"
+    "modal": "bugati3",
+    "name": "chiron",
+    "owner": "burak-adarsh"
   },
   {
-    "modal": "cayman",
-    "name": "Torbido",
-    "owner": "Burak"
+    "modal": "bugati4",
+    "name": "chiron",
+    "owner": "burak-adarsh"
   }
 ]
